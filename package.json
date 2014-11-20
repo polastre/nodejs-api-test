@@ -1,0 +1,31 @@
+{
+    "name": "nodejs-api-test",
+    "private": false,
+    "version": "0.0.1",
+    "description": "A sample app that accesses an API",
+    "dependencies": {
+        "restify": "~2.8.3",
+        "geoip-lite": "~1.1.4",
+        "request": "2.48.x",
+        "lodash": "~2.4.1"
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "chai": "*",
+        "request": "2.x"
+    },
+    "scripts": {
+        "start": "node app.js",
+        "debug": "node debug app.js"
+    },
+    "main": "app.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/polastre/nodejs-api-test.git"
+    },
+    "scripts": {
+        "test": "make test"
+    },
+    "bugs": "https://github.com/polastre/nodejs-api-test/issues",
+    "license": "MIT"
+}
