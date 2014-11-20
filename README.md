@@ -1,4 +1,4 @@
-nodejs-api-test
+nodejs-api-test [![Build Status](https://travis-ci.org/polastre/nodejs-api-test.svg?branch=master)](https://travis-ci.org/polastre/nodejs-api-test)
 ===============
 
 A sample API server using Node.js.
