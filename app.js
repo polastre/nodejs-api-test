@@ -27,6 +27,7 @@ server.use(restify.queryParser());
 server.use(restify.bodyParser());
 // register the api endpoing
 server.get('/api/distance', getDistance);
+server.post('/api/distance', getDistance);
 
 // startup the server
 server.listen(8080, function() {
